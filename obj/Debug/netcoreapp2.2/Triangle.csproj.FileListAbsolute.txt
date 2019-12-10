@@ -1,0 +1,4 @@
+/Users/Guest/Desktop/Triangle-tracker-cs/obj/Debug/netcoreapp2.2/Triangle.csprojAssemblyReference.cache
+/Users/Guest/Desktop/Triangle-tracker-cs/obj/Debug/netcoreapp2.2/Triangle.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/Triangle-tracker-cs/obj/Debug/netcoreapp2.2/Triangle.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/Triangle-tracker-cs/obj/Debug/netcoreapp2.2/Triangle.AssemblyInfo.cs
