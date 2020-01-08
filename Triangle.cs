@@ -52,7 +52,7 @@ class InterfaceProgramm
 {
     public static void Main() 
     {
-        Console.WriteLine("Please Enter a length for side 1: ");
+        Console.WriteLine("Please enter a length for side 1: ");
         int side1Input = int.Parse(Console.ReadLine());
      
         Console.WriteLine("Please enter a length for side 2: ");
