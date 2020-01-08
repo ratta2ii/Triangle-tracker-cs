@@ -52,9 +52,10 @@ class InterfaceProgramm
 {
     public static void Main() 
     {
-        Console.WriteLine("Please Enter a length for side 1: ");
-        int side0Input = int.Parse(Console.ReadLine());
-     
+
+        Console.WriteLine("Please enter a length for side 1: ");
+        int side1Input = int.Parse(Console.ReadLine());
+
         Console.WriteLine("Please enter a length for side 2: ");
         int side2Input = int.Parse(Console.ReadLine());
 
@@ -63,7 +64,7 @@ class InterfaceProgramm
 
         Triangle triangle1 = new Triangle(3, 3, 3);
         Triangle triangle2 = new Triangle(2, 2, 3); 
-        Triangle triangle3 = new Triangle(side0Input, side2Input, side3Input);
+        Triangle triangle3 = new Triangle(side1Input, side2Input, side3Input);
 
         Console.WriteLine(triangle2.TriangleConfirmation());
         Console.WriteLine(triangle2.printObjectProperties());
