@@ -61,7 +61,7 @@ class InterfaceProgramm
         Console.WriteLine("Please enter a length for side 3:");
         int side3Input = int.Parse(Console.ReadLine());
 
-        Triangle triangle1 = new Triangle(3, 3, 3);
+        Triangle triangle1 = new Triangle(1, 1, 1);
         Triangle triangle2 = new Triangle(2, 2, 3); 
         Triangle triangle3 = new Triangle(side1Input, side2Input, side3Input);
 
@@ -74,7 +74,7 @@ class InterfaceProgramm
         if (results)
         {
            Console.WriteLine(triangle3.printObjectProperties());
-           string triangleTypeVariable = triangle3.typeOfTriangle();
+           string triangleTypeVariable = triangle.typeOfTriangle();
            Console.WriteLine(triangleTypeVariable);
         }
         else {
